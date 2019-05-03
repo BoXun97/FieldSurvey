@@ -7,62 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ECD76E342276CAA2004346F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD76E332276CAA2004346F6 /* AppDelegate.swift */; };
-		ECD76E392276CAA2004346F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD76E372276CAA2004346F6 /* Main.storyboard */; };
-		ECD76E3B2276CAA3004346F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECD76E3A2276CAA3004346F6 /* Assets.xcassets */; };
-		ECD76E3E2276CAA3004346F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECD76E3C2276CAA3004346F6 /* LaunchScreen.storyboard */; };
-		ECD76E492276CAA3004346F6 /* Field_SurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD76E482276CAA3004346F6 /* Field_SurveyTests.swift */; };
-		ECD76E542276CAA3004346F6 /* Field_SurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD76E532276CAA3004346F6 /* Field_SurveyUITests.swift */; };
+		EC6835C7227ABD5400DBA2C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6835C6227ABD5400DBA2C1 /* AppDelegate.swift */; };
+		EC6835CC227ABD5400DBA2C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6835CA227ABD5400DBA2C1 /* Main.storyboard */; };
+		EC6835CE227ABD5500DBA2C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6835CD227ABD5500DBA2C1 /* Assets.xcassets */; };
+		EC6835D1227ABD5500DBA2C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6835CF227ABD5500DBA2C1 /* LaunchScreen.storyboard */; };
+		EC6835DC227ABD5500DBA2C1 /* Field_SurveyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6835DB227ABD5500DBA2C1 /* Field_SurveyTests.swift */; };
+		EC6835E7227ABD5500DBA2C1 /* Field_SurveyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6835E6227ABD5500DBA2C1 /* Field_SurveyUITests.swift */; };
+		ECB088A2227BBCEE002E95A2 /* field_observations.json in Resources */ = {isa = PBXBuildFile; fileRef = ECB088A1227BBCEE002E95A2 /* field_observations.json */; };
+		ECB088A4227BC67E002E95A2 /* FieldSurveys.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB088A3227BC67E002E95A2 /* FieldSurveys.swift */; };
+		ECB088A6227BC764002E95A2 /* FieldSurveyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB088A5227BC764002E95A2 /* FieldSurveyLoader.swift */; };
+		ECB088A8227BC9E2002E95A2 /* FieldSurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB088A7227BC9E2002E95A2 /* FieldSurveyViewController.swift */; };
+		ECB088AA227BCA2D002E95A2 /* FieldSurveyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB088A9227BCA2D002E95A2 /* FieldSurveyDetailViewController.swift */; };
+		ECB088AC227BEB89002E95A2 /* FieldSurveyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB088AB227BEB89002E95A2 /* FieldSurveyTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ECD76E452276CAA3004346F6 /* PBXContainerItemProxy */ = {
+		EC6835D8227ABD5500DBA2C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ECD76E282276CAA2004346F6 /* Project object */;
+			containerPortal = EC6835BB227ABD5400DBA2C1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ECD76E2F2276CAA2004346F6;
+			remoteGlobalIDString = EC6835C2227ABD5400DBA2C1;
 			remoteInfo = "Field Survey";
 		};
-		ECD76E502276CAA3004346F6 /* PBXContainerItemProxy */ = {
+		EC6835E3227ABD5500DBA2C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ECD76E282276CAA2004346F6 /* Project object */;
+			containerPortal = EC6835BB227ABD5400DBA2C1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ECD76E2F2276CAA2004346F6;
+			remoteGlobalIDString = EC6835C2227ABD5400DBA2C1;
 			remoteInfo = "Field Survey";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ECD76E302276CAA2004346F6 /* Field Survey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Field Survey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECD76E332276CAA2004346F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECD76E382276CAA2004346F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ECD76E3A2276CAA3004346F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ECD76E3D2276CAA3004346F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ECD76E3F2276CAA3004346F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ECD76E442276CAA3004346F6 /* Field SurveyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Field SurveyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECD76E482276CAA3004346F6 /* Field_SurveyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field_SurveyTests.swift; sourceTree = "<group>"; };
-		ECD76E4A2276CAA3004346F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ECD76E4F2276CAA3004346F6 /* Field SurveyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Field SurveyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECD76E532276CAA3004346F6 /* Field_SurveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field_SurveyUITests.swift; sourceTree = "<group>"; };
-		ECD76E552276CAA3004346F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6835C3227ABD5400DBA2C1 /* Field Survey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Field Survey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6835C6227ABD5400DBA2C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC6835CB227ABD5400DBA2C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC6835CD227ABD5500DBA2C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC6835D0227ABD5500DBA2C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC6835D2227ABD5500DBA2C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6835D7227ABD5500DBA2C1 /* Field SurveyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Field SurveyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6835DB227ABD5500DBA2C1 /* Field_SurveyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field_SurveyTests.swift; sourceTree = "<group>"; };
+		EC6835DD227ABD5500DBA2C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6835E2227ABD5500DBA2C1 /* Field SurveyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Field SurveyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6835E6227ABD5500DBA2C1 /* Field_SurveyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field_SurveyUITests.swift; sourceTree = "<group>"; };
+		EC6835E8227ABD5500DBA2C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB088A1227BBCEE002E95A2 /* field_observations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = field_observations.json; sourceTree = "<group>"; };
+		ECB088A3227BC67E002E95A2 /* FieldSurveys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveys.swift; sourceTree = "<group>"; };
+		ECB088A5227BC764002E95A2 /* FieldSurveyLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyLoader.swift; sourceTree = "<group>"; };
+		ECB088A7227BC9E2002E95A2 /* FieldSurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyViewController.swift; sourceTree = "<group>"; };
+		ECB088A9227BCA2D002E95A2 /* FieldSurveyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyDetailViewController.swift; sourceTree = "<group>"; };
+		ECB088AB227BEB89002E95A2 /* FieldSurveyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldSurveyTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ECD76E2D2276CAA2004346F6 /* Frameworks */ = {
+		EC6835C0227ABD5400DBA2C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECD76E412276CAA3004346F6 /* Frameworks */ = {
+		EC6835D4227ABD5500DBA2C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECD76E4C2276CAA3004346F6 /* Frameworks */ = {
+		EC6835DF227ABD5500DBA2C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,66 +84,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ECD76E272276CAA2004346F6 = {
+		EC6835BA227ABD5400DBA2C1 = {
 			isa = PBXGroup;
 			children = (
-				ECD76E322276CAA2004346F6 /* Field Survey */,
-				ECD76E472276CAA3004346F6 /* Field SurveyTests */,
-				ECD76E522276CAA3004346F6 /* Field SurveyUITests */,
-				ECD76E312276CAA2004346F6 /* Products */,
+				EC6835C5227ABD5400DBA2C1 /* Field Survey */,
+				EC6835DA227ABD5500DBA2C1 /* Field SurveyTests */,
+				EC6835E5227ABD5500DBA2C1 /* Field SurveyUITests */,
+				EC6835C4227ABD5400DBA2C1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ECD76E312276CAA2004346F6 /* Products */ = {
+		EC6835C4227ABD5400DBA2C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ECD76E302276CAA2004346F6 /* Field Survey.app */,
-				ECD76E442276CAA3004346F6 /* Field SurveyTests.xctest */,
-				ECD76E4F2276CAA3004346F6 /* Field SurveyUITests.xctest */,
+				EC6835C3227ABD5400DBA2C1 /* Field Survey.app */,
+				EC6835D7227ABD5500DBA2C1 /* Field SurveyTests.xctest */,
+				EC6835E2227ABD5500DBA2C1 /* Field SurveyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ECD76E322276CAA2004346F6 /* Field Survey */ = {
+		EC6835C5227ABD5400DBA2C1 /* Field Survey */ = {
 			isa = PBXGroup;
 			children = (
-				ECD76E332276CAA2004346F6 /* AppDelegate.swift */,
-				ECD76E372276CAA2004346F6 /* Main.storyboard */,
-				ECD76E3A2276CAA3004346F6 /* Assets.xcassets */,
-				ECD76E3C2276CAA3004346F6 /* LaunchScreen.storyboard */,
-				ECD76E3F2276CAA3004346F6 /* Info.plist */,
+				EC6835F4227ABDA200DBA2C1 /* Model */,
+				EC6835C6227ABD5400DBA2C1 /* AppDelegate.swift */,
+				EC6835CA227ABD5400DBA2C1 /* Main.storyboard */,
+				EC6835CD227ABD5500DBA2C1 /* Assets.xcassets */,
+				EC6835CF227ABD5500DBA2C1 /* LaunchScreen.storyboard */,
+				EC6835D2227ABD5500DBA2C1 /* Info.plist */,
+				ECB088A7227BC9E2002E95A2 /* FieldSurveyViewController.swift */,
+				ECB088A9227BCA2D002E95A2 /* FieldSurveyDetailViewController.swift */,
+				ECB088AB227BEB89002E95A2 /* FieldSurveyTableViewCell.swift */,
 			);
 			path = "Field Survey";
 			sourceTree = "<group>";
 		};
-		ECD76E472276CAA3004346F6 /* Field SurveyTests */ = {
+		EC6835DA227ABD5500DBA2C1 /* Field SurveyTests */ = {
 			isa = PBXGroup;
 			children = (
-				ECD76E482276CAA3004346F6 /* Field_SurveyTests.swift */,
-				ECD76E4A2276CAA3004346F6 /* Info.plist */,
+				EC6835DB227ABD5500DBA2C1 /* Field_SurveyTests.swift */,
+				EC6835DD227ABD5500DBA2C1 /* Info.plist */,
 			);
 			path = "Field SurveyTests";
 			sourceTree = "<group>";
 		};
-		ECD76E522276CAA3004346F6 /* Field SurveyUITests */ = {
+		EC6835E5227ABD5500DBA2C1 /* Field SurveyUITests */ = {
 			isa = PBXGroup;
 			children = (
-				ECD76E532276CAA3004346F6 /* Field_SurveyUITests.swift */,
-				ECD76E552276CAA3004346F6 /* Info.plist */,
+				EC6835E6227ABD5500DBA2C1 /* Field_SurveyUITests.swift */,
+				EC6835E8227ABD5500DBA2C1 /* Info.plist */,
 			);
 			path = "Field SurveyUITests";
+			sourceTree = "<group>";
+		};
+		EC6835F4227ABDA200DBA2C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ECB088A1227BBCEE002E95A2 /* field_observations.json */,
+				ECB088A3227BC67E002E95A2 /* FieldSurveys.swift */,
+				ECB088A5227BC764002E95A2 /* FieldSurveyLoader.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ECD76E2F2276CAA2004346F6 /* Field Survey */ = {
+		EC6835C2227ABD5400DBA2C1 /* Field Survey */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECD76E582276CAA3004346F6 /* Build configuration list for PBXNativeTarget "Field Survey" */;
+			buildConfigurationList = EC6835EB227ABD5500DBA2C1 /* Build configuration list for PBXNativeTarget "Field Survey" */;
 			buildPhases = (
-				ECD76E2C2276CAA2004346F6 /* Sources */,
-				ECD76E2D2276CAA2004346F6 /* Frameworks */,
-				ECD76E2E2276CAA2004346F6 /* Resources */,
+				EC6835BF227ABD5400DBA2C1 /* Sources */,
+				EC6835C0227ABD5400DBA2C1 /* Frameworks */,
+				EC6835C1227ABD5400DBA2C1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -139,69 +165,69 @@
 			);
 			name = "Field Survey";
 			productName = "Field Survey";
-			productReference = ECD76E302276CAA2004346F6 /* Field Survey.app */;
+			productReference = EC6835C3227ABD5400DBA2C1 /* Field Survey.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ECD76E432276CAA3004346F6 /* Field SurveyTests */ = {
+		EC6835D6227ABD5500DBA2C1 /* Field SurveyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECD76E5B2276CAA3004346F6 /* Build configuration list for PBXNativeTarget "Field SurveyTests" */;
+			buildConfigurationList = EC6835EE227ABD5500DBA2C1 /* Build configuration list for PBXNativeTarget "Field SurveyTests" */;
 			buildPhases = (
-				ECD76E402276CAA3004346F6 /* Sources */,
-				ECD76E412276CAA3004346F6 /* Frameworks */,
-				ECD76E422276CAA3004346F6 /* Resources */,
+				EC6835D3227ABD5500DBA2C1 /* Sources */,
+				EC6835D4227ABD5500DBA2C1 /* Frameworks */,
+				EC6835D5227ABD5500DBA2C1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ECD76E462276CAA3004346F6 /* PBXTargetDependency */,
+				EC6835D9227ABD5500DBA2C1 /* PBXTargetDependency */,
 			);
 			name = "Field SurveyTests";
 			productName = "Field SurveyTests";
-			productReference = ECD76E442276CAA3004346F6 /* Field SurveyTests.xctest */;
+			productReference = EC6835D7227ABD5500DBA2C1 /* Field SurveyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		ECD76E4E2276CAA3004346F6 /* Field SurveyUITests */ = {
+		EC6835E1227ABD5500DBA2C1 /* Field SurveyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECD76E5E2276CAA3004346F6 /* Build configuration list for PBXNativeTarget "Field SurveyUITests" */;
+			buildConfigurationList = EC6835F1227ABD5500DBA2C1 /* Build configuration list for PBXNativeTarget "Field SurveyUITests" */;
 			buildPhases = (
-				ECD76E4B2276CAA3004346F6 /* Sources */,
-				ECD76E4C2276CAA3004346F6 /* Frameworks */,
-				ECD76E4D2276CAA3004346F6 /* Resources */,
+				EC6835DE227ABD5500DBA2C1 /* Sources */,
+				EC6835DF227ABD5500DBA2C1 /* Frameworks */,
+				EC6835E0227ABD5500DBA2C1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ECD76E512276CAA3004346F6 /* PBXTargetDependency */,
+				EC6835E4227ABD5500DBA2C1 /* PBXTargetDependency */,
 			);
 			name = "Field SurveyUITests";
 			productName = "Field SurveyUITests";
-			productReference = ECD76E4F2276CAA3004346F6 /* Field SurveyUITests.xctest */;
+			productReference = EC6835E2227ABD5500DBA2C1 /* Field SurveyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ECD76E282276CAA2004346F6 /* Project object */ = {
+		EC6835BB227ABD5400DBA2C1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Boao Huang";
 				TargetAttributes = {
-					ECD76E2F2276CAA2004346F6 = {
+					EC6835C2227ABD5400DBA2C1 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					ECD76E432276CAA3004346F6 = {
+					EC6835D6227ABD5500DBA2C1 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = ECD76E2F2276CAA2004346F6;
+						TestTargetID = EC6835C2227ABD5400DBA2C1;
 					};
-					ECD76E4E2276CAA3004346F6 = {
+					EC6835E1227ABD5500DBA2C1 = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = ECD76E2F2276CAA2004346F6;
+						TestTargetID = EC6835C2227ABD5400DBA2C1;
 					};
 				};
 			};
-			buildConfigurationList = ECD76E2B2276CAA2004346F6 /* Build configuration list for PBXProject "Field Survey" */;
+			buildConfigurationList = EC6835BE227ABD5400DBA2C1 /* Build configuration list for PBXProject "Field Survey" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -209,37 +235,38 @@
 				en,
 				Base,
 			);
-			mainGroup = ECD76E272276CAA2004346F6;
-			productRefGroup = ECD76E312276CAA2004346F6 /* Products */;
+			mainGroup = EC6835BA227ABD5400DBA2C1;
+			productRefGroup = EC6835C4227ABD5400DBA2C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ECD76E2F2276CAA2004346F6 /* Field Survey */,
-				ECD76E432276CAA3004346F6 /* Field SurveyTests */,
-				ECD76E4E2276CAA3004346F6 /* Field SurveyUITests */,
+				EC6835C2227ABD5400DBA2C1 /* Field Survey */,
+				EC6835D6227ABD5500DBA2C1 /* Field SurveyTests */,
+				EC6835E1227ABD5500DBA2C1 /* Field SurveyUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ECD76E2E2276CAA2004346F6 /* Resources */ = {
+		EC6835C1227ABD5400DBA2C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECD76E3E2276CAA3004346F6 /* LaunchScreen.storyboard in Resources */,
-				ECD76E3B2276CAA3004346F6 /* Assets.xcassets in Resources */,
-				ECD76E392276CAA2004346F6 /* Main.storyboard in Resources */,
+				EC6835D1227ABD5500DBA2C1 /* LaunchScreen.storyboard in Resources */,
+				ECB088A2227BBCEE002E95A2 /* field_observations.json in Resources */,
+				EC6835CE227ABD5500DBA2C1 /* Assets.xcassets in Resources */,
+				EC6835CC227ABD5400DBA2C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECD76E422276CAA3004346F6 /* Resources */ = {
+		EC6835D5227ABD5500DBA2C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECD76E4D2276CAA3004346F6 /* Resources */ = {
+		EC6835E0227ABD5500DBA2C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -249,58 +276,63 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ECD76E2C2276CAA2004346F6 /* Sources */ = {
+		EC6835BF227ABD5400DBA2C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECD76E342276CAA2004346F6 /* AppDelegate.swift in Sources */,
+				ECB088AC227BEB89002E95A2 /* FieldSurveyTableViewCell.swift in Sources */,
+				ECB088A4227BC67E002E95A2 /* FieldSurveys.swift in Sources */,
+				EC6835C7227ABD5400DBA2C1 /* AppDelegate.swift in Sources */,
+				ECB088AA227BCA2D002E95A2 /* FieldSurveyDetailViewController.swift in Sources */,
+				ECB088A6227BC764002E95A2 /* FieldSurveyLoader.swift in Sources */,
+				ECB088A8227BC9E2002E95A2 /* FieldSurveyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECD76E402276CAA3004346F6 /* Sources */ = {
+		EC6835D3227ABD5500DBA2C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECD76E492276CAA3004346F6 /* Field_SurveyTests.swift in Sources */,
+				EC6835DC227ABD5500DBA2C1 /* Field_SurveyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECD76E4B2276CAA3004346F6 /* Sources */ = {
+		EC6835DE227ABD5500DBA2C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECD76E542276CAA3004346F6 /* Field_SurveyUITests.swift in Sources */,
+				EC6835E7227ABD5500DBA2C1 /* Field_SurveyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ECD76E462276CAA3004346F6 /* PBXTargetDependency */ = {
+		EC6835D9227ABD5500DBA2C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ECD76E2F2276CAA2004346F6 /* Field Survey */;
-			targetProxy = ECD76E452276CAA3004346F6 /* PBXContainerItemProxy */;
+			target = EC6835C2227ABD5400DBA2C1 /* Field Survey */;
+			targetProxy = EC6835D8227ABD5500DBA2C1 /* PBXContainerItemProxy */;
 		};
-		ECD76E512276CAA3004346F6 /* PBXTargetDependency */ = {
+		EC6835E4227ABD5500DBA2C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ECD76E2F2276CAA2004346F6 /* Field Survey */;
-			targetProxy = ECD76E502276CAA3004346F6 /* PBXContainerItemProxy */;
+			target = EC6835C2227ABD5400DBA2C1 /* Field Survey */;
+			targetProxy = EC6835E3227ABD5500DBA2C1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ECD76E372276CAA2004346F6 /* Main.storyboard */ = {
+		EC6835CA227ABD5400DBA2C1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ECD76E382276CAA2004346F6 /* Base */,
+				EC6835CB227ABD5400DBA2C1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		ECD76E3C2276CAA3004346F6 /* LaunchScreen.storyboard */ = {
+		EC6835CF227ABD5500DBA2C1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ECD76E3D2276CAA3004346F6 /* Base */,
+				EC6835D0227ABD5500DBA2C1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -308,7 +340,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		ECD76E562276CAA3004346F6 /* Debug */ = {
+		EC6835E9227ABD5500DBA2C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -369,7 +401,7 @@
 			};
 			name = Debug;
 		};
-		ECD76E572276CAA3004346F6 /* Release */ = {
+		EC6835EA227ABD5500DBA2C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -424,7 +456,7 @@
 			};
 			name = Release;
 		};
-		ECD76E592276CAA3004346F6 /* Debug */ = {
+		EC6835EC227ABD5500DBA2C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -442,7 +474,7 @@
 			};
 			name = Debug;
 		};
-		ECD76E5A2276CAA3004346F6 /* Release */ = {
+		EC6835ED227ABD5500DBA2C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -460,7 +492,7 @@
 			};
 			name = Release;
 		};
-		ECD76E5C2276CAA3004346F6 /* Debug */ = {
+		EC6835EF227ABD5500DBA2C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -481,7 +513,7 @@
 			};
 			name = Debug;
 		};
-		ECD76E5D2276CAA3004346F6 /* Release */ = {
+		EC6835F0227ABD5500DBA2C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -502,7 +534,7 @@
 			};
 			name = Release;
 		};
-		ECD76E5F2276CAA3004346F6 /* Debug */ = {
+		EC6835F2227ABD5500DBA2C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -522,7 +554,7 @@
 			};
 			name = Debug;
 		};
-		ECD76E602276CAA3004346F6 /* Release */ = {
+		EC6835F3227ABD5500DBA2C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -545,43 +577,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ECD76E2B2276CAA2004346F6 /* Build configuration list for PBXProject "Field Survey" */ = {
+		EC6835BE227ABD5400DBA2C1 /* Build configuration list for PBXProject "Field Survey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECD76E562276CAA3004346F6 /* Debug */,
-				ECD76E572276CAA3004346F6 /* Release */,
+				EC6835E9227ABD5500DBA2C1 /* Debug */,
+				EC6835EA227ABD5500DBA2C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECD76E582276CAA3004346F6 /* Build configuration list for PBXNativeTarget "Field Survey" */ = {
+		EC6835EB227ABD5500DBA2C1 /* Build configuration list for PBXNativeTarget "Field Survey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECD76E592276CAA3004346F6 /* Debug */,
-				ECD76E5A2276CAA3004346F6 /* Release */,
+				EC6835EC227ABD5500DBA2C1 /* Debug */,
+				EC6835ED227ABD5500DBA2C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECD76E5B2276CAA3004346F6 /* Build configuration list for PBXNativeTarget "Field SurveyTests" */ = {
+		EC6835EE227ABD5500DBA2C1 /* Build configuration list for PBXNativeTarget "Field SurveyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECD76E5C2276CAA3004346F6 /* Debug */,
-				ECD76E5D2276CAA3004346F6 /* Release */,
+				EC6835EF227ABD5500DBA2C1 /* Debug */,
+				EC6835F0227ABD5500DBA2C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECD76E5E2276CAA3004346F6 /* Build configuration list for PBXNativeTarget "Field SurveyUITests" */ = {
+		EC6835F1227ABD5500DBA2C1 /* Build configuration list for PBXNativeTarget "Field SurveyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ECD76E5F2276CAA3004346F6 /* Debug */,
-				ECD76E602276CAA3004346F6 /* Release */,
+				EC6835F2227ABD5500DBA2C1 /* Debug */,
+				EC6835F3227ABD5500DBA2C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ECD76E282276CAA2004346F6 /* Project object */;
+	rootObject = EC6835BB227ABD5400DBA2C1 /* Project object */;
 }
